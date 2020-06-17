@@ -1,0 +1,141 @@
+body
+{
+	float: left;
+	font-family: 'Macondo', cursive;
+	background-image: url("bg.jpg");
+ 	background-repeat: no-repeat;
+    background-size: 1600px 800px   
+}
+#heading
+{     	align-items: center;
+		width: 100%;
+		position: relative;
+		background: rgba(231, 44, 44, 0.5);
+		padding: 20px;
+		border: 1px solid #00038c;
+		box-sizing: 100%;
+}
+#text
+{
+	 text-align: center;
+}
+#quiz
+{
+	    height: 330px;
+    	width: 100%;
+    	position: relative;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 1px solid #00038c;
+		box-sizing: 100%;
+	
+}
+#questions
+{
+   padding: 20px;
+   font-size: 22px;
+   background: #05662e;
+   border-radius: 10px;
+   margin: 10px 0 10px 0;
+   color: #f6f6f6;
+}
+.choice{
+	width: 60%;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+	background: rgba(255,255,255,0.5);
+	margin: 10px 0 10px 10px;
+	color: #7817d3;
+	border: 2px solid #008CBA; 
+	border-radius: 5px;
+}
+
+.choice:hover{
+	background: #08038C;
+	color: #f6f6f6;	
+}
+#next
+{
+	font-family: 'Macondo', cursive; 
+	background-color: #4CAF50;
+	width:20%;
+	height: 4%px;
+	border: 1px solid #00038c;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;;
+	float: right;
+	 padding: 10px 10px;
+	
+}
+#next:hover{
+	background-color:rgb(48, 199, 48)
+}
+#quit
+{
+	position: fixed;
+	right:    0;
+	bottom:   0;
+	font-family: 'Georgia', serif; 
+	background-color: #4CAF50;
+	border: 1px solid #00038c;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;;
+	float: inline-end;
+	padding: 5px 5px;
+	
+}
+#quit:hover{
+		background-color:rgb(106, 90, 205)
+}
+#result
+{
+	font-size:100px;
+	 text-align: center;
+    	 height: 100px;
+    	width: 60%;
+    	position: absolute;
+    	left:20%;
+    	top: 30%;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 1px solid #00038c;
+		box-shadow: 0 0 8px 3px #fff;
+}
+
+@media (max-width: 1024px) {
+	.btn {
+	  font-size: 1rem;
+	  margin: 16px 0px 0px 0px;
+	  padding: 10px 15px;
+	}
+	head {
+	  font-size: 2rem;
+	}
+	body {
+	  float: left;
+	  font-size: 1rem;
+	}
+  }
+  
+
+@media (max-width: 690px) {
+  .btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+  head {
+    font-size: 2rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}

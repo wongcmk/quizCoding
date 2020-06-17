@@ -1,0 +1,31 @@
+<!Doctype HTML>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+	<title>CODE QUIZ</title>
+	<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+</head>
+
+<body>
+	<div id="heading"><h1 id="text">CODE QUIZ<h1></div>
+			<div id="quiz">
+				<div id="questions"></div>
+				<label class="choice"><input type="radio" name="choice" value="A" /><span id="choiceA"></span></label>
+				<label class="choice"><input type="radio" name="choice" value="B" /><span id="choiceB"></span></label>
+				<label class="choice"><input type="radio" name="choice" value="C" /><span id="choiceC"></span></label>
+				<label class="choice"><input type="radio" name="choice" value="D" /><span id="choiceD"></span></label>
+				<button id="next" onclick="nextques();">NEXT QUESTION</button>
+			</div>
+			<div id="result" style="display:none">
+			</div>
+			<button id="quit" onclick="quit();">Quit</button>
+	<script type="text/javascript" src="question.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+    
+	
+</body>
+</html>
